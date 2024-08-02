@@ -1,0 +1,62 @@
+### Pacotes
+GET http://localhost:8080/pacotes
+POST http://localhost:8080/pacotes
+Content-Type: application/json
+
+{
+  "id": "123",
+  "destinatario": "João Silva",
+  "endereco": {
+    "cep": "12345-678",
+    "rua": "Rua A",
+    "numero": "123",
+    "cidade": "Cidade B",
+    "estado": "Estado C"
+  },
+  "status": "pendente"
+}
+
+GET http://localhost:8080/pacotes/123
+PUT http://localhost:8080/pacotes/123
+Content-Type: application/json
+
+{
+  "id": "123",
+  "destinatario": "João Silva",
+  "endereco": {
+    "cep": "12345-678",
+    "rua": "Rua A",
+    "numero": "123",
+    "cidade": "Cidade B",
+    "estado": "Estado C"
+  },
+  "status": "em trânsito"
+}
+
+DELETE http://localhost:8080/pacotes/123
+
+### Rastreamentos
+POST http://localhost:8080/rastreamentos
+Content-Type: application/json
+
+{
+  "dataHora": "2024-08-01T12:00:00",
+  "status": "em trânsito",
+  "localizacao": "Centro de Distribuição A",
+  "pacoteId": "123"
+}
+
+GET http://localhost:8080/rastreamentos/123
+
+### Enderecos
+GET http://localhost:8080/enderecos
+POST http://localhost:8080/enderecos
+Content-Type: application/json
+
+{
+  "cep": "12345-678",
+  "rua": "Rua A",
+  "numero": "123",
+  "cidade": "Cidade B",
+  "estado": "Estado C"
+}
