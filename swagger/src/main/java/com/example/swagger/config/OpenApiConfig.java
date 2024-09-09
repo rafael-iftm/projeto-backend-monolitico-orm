@@ -13,9 +13,9 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Documentação da API sobre o Sistema Subscription")
+                        .title("Documentação da API sobre o Sistema de Vendas")
                         .version("Version 1 (v1)")
-                        .description("Esta documentação apresenta os endpoints responsáveis pelas funcionalidades de Usuários, Emails e Grupos de Usuários.")
+                        .description("Esta documentação apresenta os endpoints responsáveis pelo funcionamento da API de Vendas")
                         .termsOfService("http://myterms.com")
                         .license(new License()
                                 .name("Apache 2.0")
