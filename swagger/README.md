@@ -59,7 +59,7 @@ Este projeto é uma API REST para gerenciar vendas, implementada com Spring Boot
 
 2. Navegue até o diretório do projeto:
    ```bash
-   cd sistema-vendas
+   cd swagger
    ```
 
 3. Compile e rode o projeto usando Maven:
