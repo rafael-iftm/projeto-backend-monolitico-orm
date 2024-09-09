@@ -14,12 +14,12 @@ public class OpenApiConfig {
         return new OpenAPI()
                 .info(new Info()
                         .title("Documentação da API sobre o Sistema de Vendas")
-                        .version("Version 1 (v1)")
+                        .version("v3")
                         .description("Esta documentação apresenta os endpoints responsáveis pelo funcionamento da API de Vendas")
-                        .termsOfService("http://myterms.com")
+                        .termsOfService("http://rafaelterms.com")
                         .license(new License()
                                 .name("Apache 2.0")
-                                .url("http://mylicenses.com")
+                                .url("http://rafaelicenses.com")
                         )
                 );
     }
