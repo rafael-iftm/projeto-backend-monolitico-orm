@@ -13,8 +13,7 @@ jpa:
       show-sql: true
 
 springdoc:
-  paths-to-match:
-    - /api/**/v1/**
+  paths-to-match: /vendas/**
 
 swagger-ui:
   use-root-path: true
